@@ -17,7 +17,8 @@ namespace JWTSecurity.Controllers
         public EmployeeController()
         {
             db = new SecurityDBContext();
-        }
+        }  
+
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
