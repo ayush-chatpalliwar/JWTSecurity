@@ -28,6 +28,7 @@ namespace JWTSecurity.Controllers
             return Ok(db.Employees.Where(x => x.Gender=="Male"));
         }
 
+
         //[HttpGet]
         //[Authorize(Roles = "Manager")]
         //public IActionResult GetManagerEmployee()
